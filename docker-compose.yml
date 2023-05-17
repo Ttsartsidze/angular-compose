@@ -1,8 +1,0 @@
-version: '2.3'
-
-services:
-  angular:
-    container_name: angular-nginx
-    image: angular-compose
-    ports:
-      - 80:80
