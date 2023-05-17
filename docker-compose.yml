@@ -3,6 +3,6 @@ version: '2.3'
 services:
   angular:
     container_name: angular-nginx
-    image: test-compose
+    image: angular-compose
     ports:
       - 80:80
