@@ -2,9 +2,7 @@ version: '2.3'
 
 services:
   angular:
-    hostname: localhost
-    container_name: angular-container
-    build: .
+    container_name: angular-nginx
+    image: test-compose
     ports:
       - 80:80
-        
